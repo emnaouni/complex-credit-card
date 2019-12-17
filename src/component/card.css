@@ -1,0 +1,85 @@
+.bg-card{
+    background-image: url("BGG.png") ;;
+    width: 505px;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    padding: 30px  ;
+    color: white;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 25px;
+  }
+  .grand-titre{
+    font-size: 40px;
+    text-align: end;
+    color:#014d6b;
+    margin: 0;
+    font-weight: 900 ;
+  } 
+  .puce{
+    width: 75px;
+    margin: 20px 0;
+  }
+  .container{
+    padding: 0;
+    margin: 0;  
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .column{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin-right: 30px;
+  }
+  .num-1{
+   
+    font-size: 40px;
+    color: #DDE465;
+    background-color: rgba(69, 84, 3, 0.445);
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    width: 101%;
+    
+  }
+  .t-date{
+    margin: 0;
+    text-align: end;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .l-2-horizontal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .box-right{
+    display: flex;
+    align-items: center;
+  }
+  .validation{
+    margin: 0;
+    font-size: 11px;
+    line-height: 1;
+  }
+  .fa-caret-right{
+    align-self: center;
+    padding-left: 3px
+  }
+  .n-date{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 30px;
+    font-weight: 700 ;
+  }
+  .sous-titre{
+    margin: 0;
+    font-weight: 700 ;
+    text-align: start;
+  }
+  .visa{
+    width: 80px;
+  }
